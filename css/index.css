@@ -1,0 +1,55 @@
+.posts-list{
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+}
+
+.list-group{
+    list-style-type:none;
+}
+
+.list-group-item {
+    position: relative;
+    border-style: solid;
+    transition: box-shadow 0.3s;
+}
+
+.list-group-item:hover{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.li-text{
+    float: left;
+    padding: 10px 0;
+}
+
+.item{
+    position: relative;
+    width: 30px;
+    height: 24px;
+}
+
+.strelka{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    animation-name: st_move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.list-group-item .strelka {
+    visibility: hidden;
+}
+
+.list-group-item:hover .strelka {
+    visibility: visible;
+}
