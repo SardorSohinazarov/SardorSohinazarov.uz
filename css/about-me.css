@@ -1,0 +1,275 @@
+.backme{
+    float: right;
+}
+
+
+.backme img{
+    max-width: 500px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.block-of-pictures .images{
+    max-width: 90%;
+}
+
+.goldmen img{
+    max-width: 90%;
+    height: auto;
+}
+
+.all-medalists img{
+    max-width: 90%;
+    height: auto;
+}
+
+.pdp img{
+    max-width: 90%;
+    height: auto;
+}
+
+.night-mode-btn{
+    border-radius: 50%;
+}
+
+:root {
+    --text-color: #000; /* Default text color */
+    --background-color: #fff; /* Default background color */
+}
+
+body {
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+.dark-mode {
+    --text-color: #fff; /* Dark mode text color */
+    --background-color: #222; /* Dark mode background color */
+}
+
+.content{
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.panel{
+    padding: 40px;
+    position:relative;
+}
+
+.shadow-box {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+html {
+    font-size: 14px;
+  }
+  
+@media (min-width: 768px) {
+html {
+    font-size: 16px;
+}
+}
+
+html {
+position: relative;
+min-height: 100%;
+}
+
+body {
+margin-bottom: 60px;
+}
+
+@keyframes st_move{
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateX(-25%);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(50%);
+        opacity:0;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .goldmen img {
+        width: 80%;
+    }
+
+    .all-medalists img {
+        width: 80%;
+    }
+
+    .pdp img {
+        width: 80%;
+    }
+}
+
+/* Mobile devices */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .goldmen img {
+        width: 80%;
+    }
+
+    .all-medalists img {
+        width: 80%;
+    }
+
+    .pdp img {
+        width: 80%;
+    }
+}
+
+/* Large mobile devices */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .goldmen img {
+        .goldmen img
+
+    {
+        width: 80%;
+    }
+
+    .all-medalists img {
+        width: 80%;
+    }
+
+    .pdp img {
+        width: 80%;
+    }
+}
+
+/* Portrait mode tablets */
+@media (min-width: 768px) and (max-width: 991.98px) and (orientation: portrait) {
+    .goldmen img {
+        width: 80%;
+    }
+
+    .all-medalists img {
+        width: 80%;
+    }
+
+    .pdp img {
+        width: 80%;
+    }
+}
+
+/* Landscape mode tablets */
+@media (min-width: 992px) and (max-width: 1199.98px) and (orientation: landscape) {
+    .goldmen img {
+        width: 80%;
+    }
+
+    .all-medalists img {
+        width: 80%;
+    }
+
+    .pdp img {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container{
+        max-width: 1140px;
+    }
+
+    .shadow-box{
+        max-width: 60%;
+    }
+
+    .content{
+        max-width: 60%;
+    }
+
+    .goldmen {
+        height: 500px;
+        width: auto;
+    }
+
+    .all-medalists {
+        height: 500px;
+        width:auto;
+    }
+
+    .pdp {
+        height: 500px;
+        width:auto;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .toggle-container {
+        display: block;
+    }
+
+
+    .light-mode {
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+    /* Dark mode styles */
+    .dark-mode {
+        background-color: #000000;
+        color: #ffffff;
+    }
+}
+}
+
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+main{
+    padding-top: 85px;
+}
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

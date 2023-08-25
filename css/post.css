@@ -37,6 +37,45 @@ a{
     border-radius: 5px;
 }
 
+.night-mode-btn{
+    border-radius: 50%;
+}
+
+:root {
+    --text-color: #000; /* Default text color */
+    --background-color: #fff; /* Default background color */
+}
+
+body {
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+.dark-mode {
+    --text-color: #fff; /* Dark mode text color */
+    --background-color: #222; /* Dark mode background color */
+}
+
+.content{
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.panel{
+    padding: 40px;
+    position:relative;
+}
+
+.shadow-box {
+    padding: 20px;
+    border-radius: 5px;
+}
+
 html {
     font-size: 14px;
   }
