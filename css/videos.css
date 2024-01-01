@@ -14,6 +14,7 @@
 .posts-list {
     justify-content: space-evenly;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 a {
@@ -279,4 +280,35 @@ a.navbar-brand {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+}
+
+
+.navbar-brand{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: bold;
+    
+    font-size: 40px !important;
+}
+
+a.navbar-brand{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.navbar-brand img{
+    border-radius: 50%;
+    
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
+}
+
+.navbar a{
+    font-size: 30px;
+}
+
+.navbar a:hover{
+    padding-right: 5px;
+    background-color: white;
+    border-radius: 10px;
 }

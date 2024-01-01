@@ -1,4 +1,3 @@
-
 .social-icons svg{
     transform: scale(3);
     color: #000000;
@@ -68,6 +67,12 @@ a.navbar-brand{
 
 .navbar a{
     font-size: 30px;
+}
+
+.navbar a:hover{
+    padding-right: 5px;
+    background-color: white;
+    border-radius: 10px;
 }
 
 html {
