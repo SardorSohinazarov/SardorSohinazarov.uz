@@ -83,12 +83,17 @@ a.navbar-brand{
 
 .navbar a{
     font-size: 30px;
+    border-radius: 10px;
+
+    transition: all 2s;
 }
 
 .navbar a:hover{
     padding-right: 5px;
     background-color: white;
     border-radius: 10px;
+
+    transition: all 2s;
 }
 
 html {
