@@ -8,6 +8,10 @@
     margin:0 20px;
 }
 
+.social-icons svg:hover{
+    transform: scale(4) !important;
+}
+
 .social-icons{
     margin-bottom: 20px;
 }

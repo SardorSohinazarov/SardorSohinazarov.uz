@@ -1,3 +1,12 @@
+.header{
+
+}
+
+.header a{
+    display: inline;
+    vertical-align: middle;
+}
+
 .video-poster{
     height: 80px;
 }
