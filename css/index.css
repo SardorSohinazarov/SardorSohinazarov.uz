@@ -42,7 +42,23 @@
 
 .profile-image {
     width: 400px;
-    border-radius: 50%;    
+    border-radius: 50%;
+
+    background-color:transparent;
+}
+
+.profile-image-div{
+    width: 405px;
+    background-color:transparent;
+    border-radius: 50%;
+
+    transition: background-color 2s;
+}
+
+.profile-image-div:hover{
+    background-color:aqua;
+
+    transition: background-color 2s;
 }
 
 .navbar-brand{
